@@ -9,7 +9,7 @@ phone: 15774313113
 email: houcy7@163.com
 
 
-# baseurl: "/resume.io"
+baseurl: "/"
 
 permalink: /:year/:month/:day/:title/
 
