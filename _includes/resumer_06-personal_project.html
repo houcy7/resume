@@ -4,78 +4,58 @@
         <div class="pf-grid">
 
         <div class="pf-grid-sizer"></div><!-- used for sizing -->
-
-            <div class="pf-grid-item photography">
-                <div class="project">
-                    <figure class="portfolio-figure">
-                        <img src="{{ '/styles/img/portfolio/ibms.jpg' | prepend: site.baseurl }}" alt="">
-                    </figure>
-                    <div class="portfolio-caption text-center">
-                        <div class="valign-table">
-                            <div class="valign-cell">
-                                <h2 class="text-upper">智能楼宇管理系统</h2>
-                                <p>基于数据采集模型的智能楼宇管理系统，支持SNMP,Modbus,电总, OPC等协议。</p>
-                                <a href="#pf-popup-1" class="pf-btn-view btn btn-primary">详情</a>
-                            </div>
-                        </div>
-                    </div>
-
+            <div class="education">
+                <div class="education-box">
+                    <time class="education-date" datetime="2019-06TNow">
+                        <span> <strong class="text-upper">2019.06</strong> - <strong>至今</strong></span>
+                    </time>
+                    <h3>java开发工程师</h3>
+                    <span class="education-company"> 风控系统</span>
+                    <p>风控产品、风控节点的配置与热部署;构成产品的节点间依赖图展示</p>
+                    <p>产品调用的监控日志以及调用趋势分析</p>
+                    <p>风控产品相关系统的健康监控；产品回溯的系统间调度</p>
+                    <p>在本系统的开发中负责原型设计，技术选型，数据表设计，前后端开发以及运维工作。项目初期完成后端基 本功能后，
+                        使用jQuery和boostrap提供了一个前端最小可用版本，功能单一。利用上下班时间自学vue，从二期开始 使用vue+elementUI进行页面优化，
+                        丰富页面功能，布局美观，风格统一。
+                    </p>
                 </div>
-                <div id="pf-popup-1" class="pf-popup clearfix">
-                    <div class="pf-popup-col1">
-                        <div class="pf-popup-media" style="background-image: url({{ '/styles/img/portfolio/ibms.jpg' | prepend: site.baseurl }}); background-repeat: no-repeat;background-size: cover;">
-                        </div>
-                    </div><!-- .pf-popup-col1 -->
+                <!-- .education-box -->
 
-                    <div class="pf-popup-col2">
-                        <div class="pf-popup-info clear-mrg">
-                            <h2 class="text-upper">智能楼宇管理系统</h2>
-                            <p class="text-muted"><strong>design / development</strong></p>
-                            <dl class="dl-horizontal">
-                                <dt>Demo展示地址:</dt>
-                                <dd><a href="https://gitee.com/xiaodan_yu/resume.io">Demo</a></dd>
-                            </dl>
-                            <p>基于数据采集模型的智能楼宇管理系统，支持SNMP,Modbus,电总, OPC等协议。</p>
-                        </div><!-- .pf-popup-info -->
-
-                    </div><!-- .pf-popup-col2 -->
-                </div><!-- .pf-popup -->
-            </div><!-- .pf-grid-item -->
-
-            <div class="pf-grid-item design">
-                <div class="project">
-                    <figure class="portfolio-figure">
-                        <img src="{{ '/styles/img/portfolio/prj-02.jpg' | prepend: site.baseurl }}" alt="">
-                    </figure>
-
-                    <div class="portfolio-caption text-center">
-                        <div class="valign-table">
-                            <div class="valign-cell">
-                                <h2 class="text-upper">Jekyll 简历模板</h2>
-                                <p>基于Jekyll的简历模板，托管在码云。记得给个赞哦！</p>
-                                <a href="https://gitee.com/xiaodan_yu/resume.io" class="pf-btn-view btn btn-primary" target="_blank">详情</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="education-box">
+                    <time class="education-date" datetime="2014-09T2016-01">
+                        <span> <strong class="text-upper">2020.03</strong> -  <strong>至今</strong></span>
+                    </time>
+                    <h3>JAVA开发工程师/前端开发工程师</h3>
+                    <span class="education-company">信用百科</span>
+                    <p>客户管理、权限管理、客户回款管理、样本处理前端页面开发</p>
+                    <p>样本进件调度开发，效率提升数倍</p>
+                    <p>历史bug修复；项目发版上线</p>
                 </div>
-            </div><!-- .pf-grid-item -->
 
-            <div class="pf-grid-item photography">
-                <div class="project">
-                    <figure class="portfolio-figure">
-                        <img src="{{ '/styles/img/portfolio/ai.jpg' | prepend: site.baseurl }}" alt="">
-                    </figure>
-
-                    <div class="portfolio-caption text-center">
-                        <div class="valign-table">
-                            <div class="valign-cell">
-                                <h2 class="text-upper">股票预测模型</h2>
-                                <p>基于AI的股票预测模型</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="education-box">
+                    <time class="education-date" datetime="2014-09T2016-01">
+                        <span> <strong class="text-upper">2017.12</strong> -  <strong>2019.05</strong></span>
+                    </time>
+                    <h3>JAVA开发工程师</h3>
+                    <span class="education-company">风云诀</span>
+                    <p>“风云诀”是一个智能风险决策平台，可以根据用户输入或授权的信息，在接入的数据源中获取加工后的风 控变量，经过风控模型后，对用户的贷还款能力进行评估。</p>
+                    <p>样负责数据中心后端的重构、开发维护。数据中心可以将外部数据源通过热加载的方式对接到系统中，对数据源数据 或者传入的用户信息进行逻辑加工，结果作为风控变量供方案中心使用。</p>
+                    <p>负责统计中心后端的开发，维护。统计中心是将风控方案的流程以及流程节点执行详情(调用日志)进行可视化展 示;将方案或节点的调用量使用直方图进行展示;对方案输出结果进行饼状图展示</p>
                 </div>
-            </div><!-- .pf-grid-item -->
+
+                <div class="education-box">
+                    <time class="education-date" datetime="2014-09T2016-01">
+                        <span> <strong class="text-upper">2017.12</strong> -  <strong>2019.05</strong></span>
+                    </time>
+                    <h3>JAVA开发工程师</h3>
+                    <span class="education-company">其它项目</span>
+                    <p><strong>风神</strong> 负责登录模块，权限控制模块</p>
+                    <p><strong>闪贷-对公数据库 </strong> 负责二次开发和维护</p>
+                    <p><strong>三方数据管理平台</strong> 负责外部数据源的接入</p>
+                    <p><strong>蜂嗅系统</strong> 用户是否注册某些金融类网站/APP信息获取，负责系统维护和接口开发</p>
+                    <p><strong>项目实施</strong> 负责风云诀本地部署、风控变量开发以及系统培训</p>
+                </div>
+            </div>
         </div>
     </div>
 </section><!-- .section -->
